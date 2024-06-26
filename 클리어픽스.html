@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            border: 1px green solid;
+        }
+
+        ul,
+        li,
+        ol {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+
+        .list1 {}
+
+        .list1 li {
+            float: left;
+        }
+
+        .list1 li a {
+            display: block;
+            padding: 20px;
+            background-color: tan;
+        }
+
+        .clear_fix::before,
+        .clear_fix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .box1 {
+            background-color: lightcyan;
+            width: 300px;
+            float: left;
+        }
+
+        .box2{
+            background-color: pink;
+            width: 500px; 
+            height: 150px;
+            float: left;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <ul class="list1 clear_fix">
+        <li><a href="#">5645464</a></li>
+        <li><a href="#">5645464</a></li>
+        <li><a href="#">5645464</a></li>
+        <li><a href="#">5645464</a></li>
+        <li><a href="#">5645464</a></li>
+        <li><a href="#">5645464</a></li>
+    </ul>
+
+    <div class="box1">aflasfdhlaflafsdl</div>
+    <div class="box2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo a repudiandae provident quae
+        officia perferendis reprehenderit assumenda. Iure, ratione dolores! Amet accusamus laborum autem magnam
+        explicabo nam, quis aliquid ipsam.</div>
+
+        <div class="box3 clear_fix">ksdiksfklfslks slksdiosklsf zbxoyubxtry</div>
+
+
+</body>
+
+</html>
