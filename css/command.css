@@ -187,3 +187,91 @@ width: 100%;
 }
 
 
+/* footer 영역 */
+
+#footer{
+    width: 100%;
+    background-color: #292929;
+    padding: 30px 0;
+}
+
+.foot_inner{
+    width: 1168px;
+    margin: 0 auto;
+}
+
+.f_menu{
+    float: left;
+}
+.f_menu li{
+    color: white;
+}
+
+.f_menu li a{
+    display: block;
+    padding: 2px 0;
+    font-weight: bold;
+}
+
+.f_menu li a.yellow{color: yellow !important;}
+
+.info{
+    float: left;
+    margin-left: 70px;
+    }
+
+.info li{
+    display: block;
+    padding: 2px 0;
+    font-weight: bold;
+    color: gray;
+}
+
+.sns{float: right;}
+
+.sns li{
+    display: inline-block;
+}
+
+.sns li a{
+    display: block;
+    width: 40px; 
+    height: 40px;
+    background-image: url(../img/ico_sns.png);
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+    text-indent: -9999px;
+    margin-left: 10px;
+}
+
+li.sns_1 a{}
+li.sns_2 a{background-position: 0 -40px;}
+li.sns_3 a{background-position: 0 -80px;}
+li.sns_4 a{background-position: 0 -120px;}
+
+li.sns_5 a{
+    width: 100px; 
+    height: 90px;
+    background-image: url(../img/web_accessibility.png) !important;
+    background-size: 100%;
+}
+
+/* top 영역 */
+.top{
+    width: 120px;
+    position: fixed;
+    left: calc(50% + (1168px / 2) + 40px);
+    top: 700px;
+}
+
+.top .pos{
+    position: sticky;
+    bottom: 300px;
+}
+
+
+.top a{
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+}
